@@ -3,7 +3,7 @@ class MiniBars {
 
     static drawSmallLeftBars(bufferLength, x, barWidth, barHeight, dataArray){
         let el = document.getElementById('canvas');
-        el.style.bottom = '50%';
+        el.style.bottom = '30%';
         x = canvas.width / 2;
 
         for(let i = 0; i < bufferLength; i++) {
@@ -17,7 +17,7 @@ class MiniBars {
 
     static drawSmallRightBars(bufferLength, x, barWidth, barHeight, dataArray){
         let el = document.getElementById('canvas');
-        el.style.bottom = '50%';
+        el.style.bottom = '30%';
         ctx.y = canvas.height/2;
         x = canvas.width / 2;
         // analyser.fftSize = 2 ** 12;
